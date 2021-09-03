@@ -22,7 +22,7 @@ namespace Quote.Controllers
         {
             var quoteModel = new Quotes();
             var quote = quoteModel.getQuote();
-            return View(quote);
+            return View("Index",quote);
         }
 
         public IActionResult Privacy()

@@ -1,4 +1,4 @@
-﻿@model string;
+﻿@model string  ;
 
 @{
     ViewData["Title"] = "Home Page";
@@ -7,7 +7,7 @@
 
 
 <div class="text-center">
-    <h1 class="display-4">Quotes Of The day</h1>
+    <h1 class="display-4">@Html.Raw(Model)</h1>
 
 </div>
 
